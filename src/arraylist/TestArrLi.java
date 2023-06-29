@@ -1,7 +1,9 @@
+package arraylist;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Test {
+public class TestArrLi {
     public static void main(String[] args) {
        List<Integer> arrayList = new ArrayList<>(); //Только ссылочные типы
         // По конвенции лучше создавать объект типа реализуемого интерфейса, чтоб потом свичиться между реализациями, если это потребуется
