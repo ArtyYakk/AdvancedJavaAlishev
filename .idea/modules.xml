@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CollectionsAli.iml" filepath="$PROJECT_DIR$/CollectionsAli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvancedJavaAlishev.iml" filepath="$PROJECT_DIR$/AdvancedJavaAlishev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multithreading/Multithreading.iml" filepath="$PROJECT_DIR$/Multithreading/Multithreading.iml" />
     </modules>
   </component>
 </project>

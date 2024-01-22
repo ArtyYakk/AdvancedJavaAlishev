@@ -1,7 +1,5 @@
 package queue;
 
-import javax.annotation.processing.SupportedSourceVersion;
-import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 
