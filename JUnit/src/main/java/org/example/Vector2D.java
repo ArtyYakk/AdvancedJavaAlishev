@@ -1,3 +1,5 @@
+package org.example;
+
 public class Vector2D {
     private double x;
     private double y;
@@ -19,6 +21,6 @@ public class Vector2D {
     }
 
     public double length(){
-        return Math.sqrt(x*x + y*y);
+        return Math.sqrt(x*x + y*x);
     }
 }
