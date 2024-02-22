@@ -2,17 +2,20 @@ package org.example.reflection;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class ReflectionTest {
-    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException {
-        Person person = new Person();
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException {
+//        Person person = new Person();
+//
+//        Class personClass = Person.class;
+//        Class personClass2 = person.getClass();
 
-        Class personClass = Person.class;
-        Class personClass2 = person.getClass();
+
      //   Class personClass3 = Class.forName("Person");
 
 //        Method[] methods = personClass.getMethods();
@@ -46,6 +49,11 @@ public class ReflectionTest {
 
         Method m = classObject1.getMethod(methodName, classObject2);
         Object o1 = classObject1.newInstance();
+        Object o2 = classObject2.getConstructor(String.class).newInstance("String value");
+
+        m.invoke(o1, o2);
+
+        System.out.println(o1);
 
 
 
